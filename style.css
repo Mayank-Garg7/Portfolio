@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 43px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    margin-right: 25px;
+    background: #1e2167;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    box-shadow: inset 10px 10px 15px blue;
+    transition: 5s;
+}
+
+.leftSection .buttons {
+    margin: 50px 0;
+}
+
+.rightSection img {
+    width: 95%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+
+.main p {
+    width: 84%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.image {
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px blue;
+}
+
+span {
+    color: rgb(170, 107, 228);
+}
+
+.collections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imag {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px blue;
+}
+
+.imag:hover {
+    box-shadow: none;
+}
+
+#about h3 {
+    font-weight: 20px;
+    font-size: 25px;
+    margin: 120px 0 0 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(84, 20, 145);
+}
+
+
+
+
+
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 230px;
+}
+
+footer .text {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
